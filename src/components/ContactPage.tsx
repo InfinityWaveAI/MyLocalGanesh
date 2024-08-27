@@ -1,6 +1,6 @@
 // src/ContactPage.js
 
-import React, { useState } from "react";
+import { useState } from "react";
 import "./ContactPage.css";
 
 const ContactPage = () => {
