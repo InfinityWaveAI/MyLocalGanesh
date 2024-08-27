@@ -1,0 +1,118 @@
+/* src/ContactPage.css */
+
+.contact-page {
+    font-family: 'Arial, sans-serif';
+    color: #333;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f4f4f9;
+    text-align: center;
+  }
+  
+  .contact-header {
+    margin-bottom: 40px;
+    background-color: #ff6f61;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .contact-header h1 {
+    font-size: 2.5rem;
+  }
+  
+  .contact-header p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  
+  .contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 1rem;
+  }
+  
+  .form-group textarea {
+    height: 100px;
+    resize: vertical;
+  }
+  
+  .submit-button {
+    background-color: #ff6f61;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #e05a4f;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .contact-header h1 {
+      font-size: 2rem;
+    }
+  
+    .contact-header p {
+      font-size: 1rem;
+    }
+  
+    .contact-form {
+      padding: 15px;
+    }
+  
+    .submit-button {
+      font-size: 1rem;
+      padding: 10px 15px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .contact-header h1 {
+      font-size: 1.8rem;
+    }
+  
+    .contact-header p {
+      font-size: 0.9rem;
+    }
+  
+    .form-group input,
+    .form-group textarea {
+      font-size: 0.9rem;
+    }
+  
+    .submit-button {
+      font-size: 0.9rem;
+    }
+  }
+  
